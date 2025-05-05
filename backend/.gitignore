@@ -1,0 +1,41 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+dezra-env/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# Editor settings
+.vscode/
+.idea/
+
+# Test cache and artifacts
+.pytest_cache/
+.cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# SQLModel/SQLite database files
+*.sqlite3
+*.db
+
+# FastAPI auto-reload PID files
+*.pid
+
+# Logs
+*.log
+
+# Local instance or runtime-generated files
+instance/
+*.bak
+*.tmp
+
