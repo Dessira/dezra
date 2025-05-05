@@ -1,7 +1,7 @@
 
-# Perishables Inventory Management API
+# Items Inventory Management API
 
-A FastAPI-based backend system for managing perishable inventory items, user registration, and shop profiles. It supports JWT authentication and provides RESTful endpoints for managing users, shops, and items.
+A FastAPI-based backend system for managing inventory items, user registration, and shop profiles. It supports JWT authentication and provides RESTful endpoints for managing users, shops, and items.
 
 ## Features
 
@@ -37,7 +37,7 @@ DATABASE_URL=sqlite:///./test.db
 ## Running the App
 
 ```bash
-uvicorn app.main:app --reload
+fastapi dev app/main.py
 ```
 
 ## Project Structure
